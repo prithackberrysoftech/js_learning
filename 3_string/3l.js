@@ -1,0 +1,1 @@
+`Shipping & handling: $${((4.99*2).toFixed(2))}`
