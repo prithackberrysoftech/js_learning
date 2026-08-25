@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const number = Math.random();
+        let guess = 'Tail';
+        let result;
+        console.log('number',number)
+        if (number >0.5) {
+            console.log('head')
+            result = 'head'
+        } else {
+            console.log('Tail')
+            result = 'Tail'
+        }
+
+        if(result==guess){
+            console.log('You won')
+        }else{
+            console.log('You lost')
+        }
+    </script>
+</body>
+</html>

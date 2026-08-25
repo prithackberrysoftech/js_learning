@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+
+    <button onclick="console.log(quantity)">Show Quantity</button>
+
+    <button onclick="quantity + 1 <= 10 ? console.log(quantity += 1) : console.log('The Cart is full')">
+        Add to Cart
+    </button>
+
+    <button onclick="quantity + 2 <= 10 ? console.log(quantity += 2) : console.log('The Cart is full')">
+        +2
+    </button>
+
+    <button onclick="quantity + 3 <= 10 ? console.log(quantity += 3) : console.log('The Cart is full')">
+        +3
+    </button>
+
+    <button onclick="quantity + 4 <= 10 ? console.log(quantity += 4) : console.log('The Cart is full')">
+        +4
+    </button>
+
+    <button onclick="quantity + 5 <= 10 ? console.log(quantity += 5) : console.log('The Cart is full')">
+        +5
+    </button>
+
+    <button onclick="quantity - 1 < 0 ? console.log('Not enough items in the cart') : console.log(quantity -= 1)">
+        -1
+    </button>
+
+    <button onclick="quantity - 2 < 0 ? console.log('Not enough items in the cart') : console.log(quantity -= 2)">
+        -2
+    </button>
+
+    <button onclick="quantity - 3 < 0 ? console.log('Not enough items in the cart') : console.log(quantity -= 3)">
+        -3
+    </button>
+
+    <button onclick="console.log(quantity = 0)">
+        Reset Cart
+    </button>
+
+    <script>
+        let quantity = 0;
+    </script>
+
+</body>
+</html>

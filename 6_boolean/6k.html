@@ -7,18 +7,17 @@
 </head>
 <body>
     <button onclick="console.log(quantity)">Show Quantity</button>
-    <button onclick="console.log(quantity += 1)">Add to Cart</button>
-    <button onclick="console.log(quantity += 2)">+2</button>
-    <button onclick="console.log(quantity += 3)">+3</button>
-    <button onclick="console.log(quantity += 4)">+4</button>
-    <button onclick="console.log(quantity += 5)">+5</button>
+    <button onclick="quantity < 10 ? console.log(quantity += 1) : console.log('The Cart is full')">Add to Cart</button>
+    <button onclick="quantity < 10 ? console.log(quantity += 2) : console.log('The Cart is full')">+2</button>
+    <button onclick="quantity < 10 ? console.log(quantity += 3) : console.log('The Cart is full')">+3</button>
+    <button onclick="quantity < 10 ? console.log(quantity += 4) : console.log('The Cart is full')">+4</button>
+    <button onclick="quantity < 10 ? console.log(quantity += 5) : console.log('The Cart is full')">+5</button>
     <button onclick="console.log(quantity --)">Remove Quantity</button>
     <button onclick="console.log(quantity -= 2)">-2</button>
     <button onclick="console.log(quantity -= 3 )">-3</button>
     <button onclick="console.log(quantity = 0)">resert cart</button>
     <script>
         let quantity = 0
-        
     </script>
 </body>
 </html>
